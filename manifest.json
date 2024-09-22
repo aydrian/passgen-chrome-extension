@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator Extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension that generates secure random passwords.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [],
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  }
+}
